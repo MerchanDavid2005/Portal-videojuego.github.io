@@ -1,0 +1,269 @@
+/* --------------------- Pagina ---------------------------- */
+
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0.5%;
+    background: #000;
+
+}
+
+img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+p{
+
+    text-align: center;
+    color: #fff;
+    font-size: 23px;
+
+}
+
+/* ------------------------------------ Encabezado ------------------------------------- */
+
+#encabezado{
+
+    position: absolute;
+    top: 3%;
+    width: 60%;
+    height: 10%;
+    z-index: 100;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.encabezado-fondo{
+
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.6;
+    position: absolute;
+    border-radius: 30px;
+
+}
+
+.encabezado-contenido{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+    z-index: 100;
+
+}
+
+.encabezado-contenido-div-1{
+
+    width: 45%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-right: 2px solid #444;
+
+}
+
+.encabezado-contenido-div-1-img{
+
+    width: 40%;
+    height: 100%;
+
+}
+
+.encabezado-contenido-div-2{
+
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.encabezado-contenido-div-2 span{
+
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+/* ----------------------------------- Cuerpo ------------------------------------- */
+
+#cuerpo{
+
+    width: 100%;
+    height: 100vh;
+    border-radius: 30px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* ----------------------------------- Cuerpo - section 1 ------------------------------------- */
+
+.cuerpo-section-1{
+
+    width: 32%;
+    height: 100%;
+    background: url(./imgs/imagen-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 3%;
+    transition: width 1s ease;
+
+}
+
+.cuerpo-section-1-article{
+
+    width: 90%;
+    height: 15%;
+    border-radius: 30px;
+    display: flex;
+    opacity: 0;
+    justify-content: flex-start;
+    align-items: center;
+    transition: opacity 1s ease;
+
+}
+
+.cuerpo-section-1-article-enlace{
+
+    width: 30%;
+    height: 100%;
+    background: #000;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid #f00;
+    cursor: pointer;
+
+}
+
+/* ----------------------------------- Cuerpo - section 2 ------------------------------------- */
+
+.cuerpo-section-2{
+
+    width: 36%;
+    height: 100%;
+    background: url(./imgs/imagen-2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 3%;
+    transition: width 1s ease;
+
+}
+
+.cuerpo-section-2-article{
+
+    width: 90%;
+    height: 15%;
+    border-radius: 30px;
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s ease;
+
+}
+
+.cuerpo-section-2-article-enlace{
+
+    width: 30%;
+    height: 100%;
+    background: #000;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid #f00;
+    cursor: pointer;
+
+}
+
+/* ----------------------------------- Cuerpo - section 3 ------------------------------------- */
+
+.cuerpo-section-3{
+
+    width: 32%;
+    height: 100%;
+    background: url(./imgs/imagen-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding-bottom: 3%;
+    transition: width 1s ease;
+
+}
+
+.cuerpo-section-3-article{
+
+    width: 90%;
+    height: 15%;
+    border-radius: 30px;
+    display: flex;
+    opacity: 0;
+    justify-content: flex-end;
+    align-items: center;
+    transition: opacity 1s ease;
+
+}
+
+.cuerpo-section-3-article-enlace{
+
+    width: 30%;
+    height: 100%;
+    background: #000;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid #f00;
+    cursor: pointer;
+
+}
